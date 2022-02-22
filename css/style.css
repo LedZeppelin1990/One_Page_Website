@@ -33,11 +33,11 @@ body {
   /* Navbar specs  */
 
  nav { 
-    margin: 5px auto 0;
+    margin: 0px auto 0;
     position: relative;
     width: 600px;
-    height: 10px;
-    border-radius: 5px;
+    height: 5px;
+    border-radius: 0px;
     font-size: 0;
   }
 
@@ -50,7 +50,7 @@ body {
     line-height: 50px;
     height: 100%;
     font-size: 15px;
-    display: inline-block;
+    display: inline-flex;
     position: relative;
     z-index: 1;
     text-decoration: none;
@@ -72,49 +72,49 @@ body {
     border-radius: 0px;
   }
 
-  /* Response bar width. */
+  /* Bar width. */
 
   a:nth-child(1) { 
-    width: 100px;
+    width:100px;
   }
   a:nth-child(2) {
-    width: 110px;
-  }
-  a:nth-child(3) {
     width: 100px;
   }
+  a:nth-child(3) {
+    width: 120px;
+  }
   a:nth-child(4) {
-    width: 160px;
+    width: 140px;
   }
   a:nth-child(5) {
-    width: 120px;
+    width: 100px;
   }
 
   /* Bar color and size  */
 
   nav .start-home, a:nth-child(1):hover~.animation { 
-    width: 100px;
-    left: 0;
+    width: 110px;
+    left: -30px;
     background-color: #fcfcfc; 
   }
   nav .start-about, a:nth-child(2):hover~.animation {
     width: 110px;
-    left: 100px;
+    left: 70px;
     background-color: #c5c3c3;
   }
   nav .start-gallery, a:nth-child(3):hover~.animation {
     width: 120px;
-    left: 200px;
+    left: 170px;
     background-color: #727171;
   }
   nav .start-portefolio, a:nth-child(4):hover~.animation {
     width: 160px;
-    left: 310px;
+    left: 280px;
     background-color: #4e4e4e;
   }
   nav .start-contact, a:nth-child(5):hover~.animation {
     width: 120px;
-    left: 470px;
+    left: 440px;
     background-color: #070707;
   }
 
@@ -626,10 +626,10 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
   transform: rotate(-60deg) skewY(30deg);
 }
 #categories li:nth-child(3n+2){
-  margin:0 1%;
+  margin:0%;
 }
 #categories li:nth-child(6n+4){
-  margin-left:0.5%;
+  margin-left:0%;
 }
 #categories li:nth-child(6n+4), #categories li:nth-child(6n+5), #categories li:nth-child(6n+6) {
 	margin-top: -6.9285714285%;
